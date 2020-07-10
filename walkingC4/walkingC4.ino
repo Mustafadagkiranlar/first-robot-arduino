@@ -109,7 +109,6 @@ void loop()
     digitalWrite(DIR_LED_LFT, LOW);
     digitalWrite(DIR_LED_RHT, LOW);
   }
-  Serial.println(tt);
   //Serial.print("Distance: "); Serial.print(sonarState); Serial.println("cm");
   //Serial.println(carSpeed);
   delay(10);
