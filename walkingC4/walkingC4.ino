@@ -66,6 +66,7 @@ void setup()
   digitalWrite(DIR_LED_RHT, LOW);
   leftmotor.brake();
   rightmotor.brake();
+  printf("Robot init done");
 }
 
 
